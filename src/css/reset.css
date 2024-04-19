@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;   
+}
+
+/*tira margens e bordas padroes*/
+
+/*tira a decoração do texto e coloca branco no fundo*/
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/*tira a bolinhda preta da frente dos tópicos*/
+
+ul{
+    list-style: none;
+}
+
+/*largura maxima de 100%*/
+
+img{
+    max-width: 100%;
+}
+
+/*resete*/

@@ -1,0 +1,39 @@
+@media(max-width: 1280px) { /*para ajustar a visualização no celular*/
+    
+    .cabecalho {
+        padding: 30px;
+    }
+    
+    .home {
+        flex-direction: column; /*ver em coluna no cel*/
+        align-items: center;
+        margin: 50px 0;
+        gap: 30px;
+    }
+
+    .home .informacoes {
+        max-width: 100%;
+        text-align: center; /*alinha os textos*/
+        align-items: center; /*alinha os elementos*/
+    }
+
+    .projetos .container-projetos {
+        padding: 0 30px;
+    }
+}
+
+@media(max-width: 425px) {
+    .home .informacoes h1 {
+        font-size: 30px;
+    }
+    .home .informacoes p {
+        font-size: 16px;
+    }
+    .home .container-foto {
+        max-width: 320px;
+    }
+    
+    .projetos {
+        padding: 30px; /*espaçamento*/
+    }
+}
